@@ -17,3 +17,13 @@ This folder contains Figure 2/3/4-style data generated from the official Janus-Q
 - `figure_data/figure4/`: property and substructure shift data
 - `aggregate/`: seed-aggregated Table 1 and alignment summaries
 - `metadata/`: QUBO convention and Zenodo metadata
+
+## Preview Figures
+
+![Figure 2a QED-SA landscape](figure_data/figure2/figure2a_qed_sa_landscape.png)
+
+![Figure 2b Table 1 comparison](figure_data/figure2/figure2b_table1_paper_vs_repro.png)
+
+![Figure 3 bit contribution scatter](figure_data/figure3/figure3b_bit_contribution_scatter.png)
+
+![Figure 4 property shift heatmap](figure_data/figure4/figure4_property_shift_heatmap.png)
