@@ -1,0 +1,30 @@
+{
+  "qubo_csv": "/home/shh4077/janus_project/artifacts/paper/qubo_128.csv",
+  "sha256": "0c079343d91136cdc16512f67df82afc17e2f7ec9892fb6fd32cc9c9c05d1d52",
+  "shape": [
+    128,
+    128
+  ],
+  "finite": true,
+  "matrix_format_selected": "upper",
+  "upper_triangular": true,
+  "symmetric": false,
+  "nonzero_diagonal": 128,
+  "nonzero_upper_off_diagonal": 8128,
+  "nonzero_lower_off_diagonal": 0,
+  "max_abs_lower": 0.0,
+  "max_abs_upper": 0.21958764,
+  "selected_energy_formula": "x.T @ Q_effective @ x",
+  "selected_pair_formula_max_abs_error": 0.0,
+  "probe_statistics": {
+    "n": 1000,
+    "raw_min": -0.026784090000000208,
+    "raw_max": 2.1439697800000004,
+    "effective_min": -0.026784090000000208,
+    "effective_max": 2.1439697800000004,
+    "max_abs_raw_minus_upper": 0.0,
+    "max_abs_raw_minus_symmetric_once": 1.217534715
+  },
+  "recommended_for_official_janus_qubo": "upper",
+  "warning": "A symmetric matrix can represent either split quadratic-form coefficients or duplicated full pair coefficients. The file shape alone cannot determine intent; record the chosen format."
+}

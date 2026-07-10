@@ -1,0 +1,40 @@
+{
+  "script": "make_paper_repro_figure_data.py",
+  "experiment_root": "experiments/paper_artifact",
+  "protocol_dir": "evaluation_paper_protocol",
+  "latent_dim": 128,
+  "targets": [
+    "official_property_contribution",
+    "official_final_score",
+    "qed",
+    "score_sa",
+    "score_logp",
+    "score_ro5"
+  ],
+  "outputs": {
+    "figure2a_landscape": "experiments/paper_artifact/figure_data/figure2/figure2a_qed_sa_landscape.csv",
+    "figure2a_pareto_front": "experiments/paper_artifact/figure_data/figure2/figure2a_pareto_front.csv",
+    "figure2a_metrics": "experiments/paper_artifact/figure_data/figure2/figure2a_landscape_metrics.csv",
+    "figure2b_table1_comparison": "experiments/paper_artifact/figure_data/figure2/figure2b_table1_paper_vs_repro.csv",
+    "figure2c_examples": "experiments/paper_artifact/figure_data/figure2/figure2c_representative_molecules.csv",
+    "figure3_latent_property_matrix": "experiments/paper_artifact/figure_data/figure3/figure3_latent_property_matrix.csv",
+    "figure3_bit_contributions": "experiments/paper_artifact/figure_data/figure3/figure3_bit_contributions.csv",
+    "figure3_pair_interactions": "experiments/paper_artifact/figure_data/figure3/figure3_pair_interactions.csv",
+    "figure3_model_diagnostics": "experiments/paper_artifact/figure_data/figure3/figure3_model_diagnostics.csv",
+    "figure3_top_bits": "experiments/paper_artifact/figure_data/figure3/figure3_top_bits_by_target.csv",
+    "figure4_property_shift": "experiments/paper_artifact/figure_data/figure4/figure4_property_shift_by_bit.csv",
+    "figure4_substructure_shift": "experiments/paper_artifact/figure_data/figure4/figure4_substructure_shift_by_bit.csv",
+    "figure4_property_distributions": "experiments/paper_artifact/figure_data/figure4/figure4_property_distributions.csv"
+  },
+  "plots": [
+    "experiments/paper_artifact/figure_data/figure2/figure2a_qed_sa_landscape.png",
+    "experiments/paper_artifact/figure_data/figure2/figure2b_table1_paper_vs_repro.png",
+    "experiments/paper_artifact/figure_data/figure3/figure3b_bit_contribution_scatter.png",
+    "experiments/paper_artifact/figure_data/figure4/figure4_property_shift_heatmap.png"
+  ],
+  "notes": [
+    "Figure 2 Table 1 comparison uses paper Janus-FM values from the main manuscript.",
+    "Figure 3 contributions are empirical bit-state effects; LightGBM diagnostics are added when available.",
+    "Figure 4 shifts compare generated molecules with bit=1 versus bit=0, not original-vs-optimized pairs."
+  ]
+}
