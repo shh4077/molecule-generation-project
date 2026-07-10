@@ -1,0 +1,24 @@
+# Large local data and model artifacts
+external/
+tmp/
+data/
+runs/
+results/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Local environment and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
